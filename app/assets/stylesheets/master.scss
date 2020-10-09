@@ -93,6 +93,11 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -108,16 +113,3 @@ body {
 }
 
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-   }
